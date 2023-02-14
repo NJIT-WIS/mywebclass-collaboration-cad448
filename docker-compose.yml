@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     master:
-      image: cad448/mywebclass-collaboration-cad448:master
+      image: cd448/mywebclass-collaboration-cad448:master
       deploy:
         replicas: 2
       pull_policy: always
